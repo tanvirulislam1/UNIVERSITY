@@ -1,0 +1,71 @@
+:root {
+  --primary: #11cbd7;
+  --dark: #001618a8;
+  --light: #919191;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-primary {
+  background: #11cbd7 !important;
+}
+.text-primary {
+  color: #11cbd7 !important;
+}
+.btn-primary {
+  color: white;
+  background: #11cbd7;
+  border: 2px solid #11cbd7;
+}
+.btn-primary:hover {
+  color: black;
+  border: 2px solid #11cbd7;
+  background: transparent;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.anchor-link {
+  text-decoration: none;
+  color: var(--primary);
+  cursor: pointer;
+}
+.anchor-link:hover {
+  color: var(--dark);
+}
+.slash {
+  color: var(--dark);
+  cursor: default;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background: var(--primary);
+  color: white;
+}
+.hero {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 94vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#about {
+  overflow: hidden;
+}
+.icon span {
+  font-size: 70px !important;
+}
+.big-blog {
+  margin-top: 15px;
+  font-size: 12px;
+}
